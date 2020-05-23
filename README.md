@@ -1,5 +1,5 @@
 # Chrome-Extension-Return-Device
-This extension will constantly remind students that it is time to return their chromebook
+This Chrome extension will constantly remind students that it is time to return their chromebook
 
 background.js has three main parts
 
