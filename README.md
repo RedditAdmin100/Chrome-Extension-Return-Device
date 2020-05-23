@@ -18,4 +18,4 @@ users will be given the option to check a box that will prevent future alert box
 Put the two files (manifest.json and backgroud.js) in a folder and zip them. Go to
 https://chrome.google.com/webstore/developer/dashboard?hl=en-US&gl=US 
 and upload the zip file. This should be free if you are publishing only to your domain.
-Once the extension is published 
+Once the extension is published. (you may have to do this with a super admin account)
