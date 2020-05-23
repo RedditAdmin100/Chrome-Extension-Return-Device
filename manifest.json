@@ -1,0 +1,18 @@
+{
+  "name": "Reminder to Return Chromebook",
+  "description": "It is time to return this Chromebook",
+  "version": "1.0",
+  "permissions": [
+    "background",
+    "alarms",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Chromebook Return"
+  },
+  "manifest_version": 2
+}
