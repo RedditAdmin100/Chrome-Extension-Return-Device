@@ -15,6 +15,16 @@ a new tab with the specified url. This will repeat every 30 mins
 created. Change the alert message to the desired message. Once the alert has popped up a few times,
 users will be given the option to check a box that will prevent future alert box popups.
 
+If you want to show the alert only on new tab creation and not on page refreshes,
+change the last section to look like this:
+```
+chrome.tabs.onCreated.addListener( function (tabId, changeInfo, tab) { 
+  
+   alert("ATTENTION Students- message here.") //text on alert msg
+
+})
+```
+
 Put the two files (manifest.json and backgroud.js) in a folder and zip them. Go to
 https://chrome.google.com/webstore/developer/dashboard?hl=en-US&gl=US 
 and upload the zip file. This should be free if you are publishing only to your domain.
