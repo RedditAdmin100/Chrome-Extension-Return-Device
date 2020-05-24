@@ -16,7 +16,7 @@ created. Change the alert message to the desired message. Once the alert has pop
 users will be given the option to check a box that will prevent future alert box popups.
 
 If you want to show the alert only on new tab creation and not on page refreshes,
-change the last section to look like this:
+change the 3rd section to look like this:
 ```
 chrome.tabs.onCreated.addListener( function (tabId, changeInfo, tab) { 
   
