@@ -27,5 +27,5 @@ chrome.tabs.onCreated.addListener( function (tabId, changeInfo, tab) {
 
 Put the two files (manifest.json and backgroud.js) in a folder and zip them. Go to
 https://chrome.google.com/webstore/developer/dashboard?hl=en-US&gl=US 
-and upload the zip file. This should be free if you are publishing only to your domain.
-Once the extension is published. (you may have to do this with a super admin account)
+and upload the zip file.(you may have to do this with a super admin account) This should be free if you are publishing only to your domain.
+Once the extension is published, go to admin.google.com to force it to your desired OUs. 
